@@ -1,4 +1,4 @@
-  var spreadSheet = SpreadsheetApp.openById('1_uF9QjhPuVC_eU_csfKahsJwer-NX428hPUUKaXAf9Q');
+  var spreadSheet = SpreadsheetApp.openById('xxx');
   var sheet = spreadSheet.getSheetByName('Sheet1');
   var amountSetOff = sheet.getRange("H29").getValue();
 
