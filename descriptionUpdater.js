@@ -5,6 +5,5 @@
 function descrUpdater() {
   var form = FormApp.openById('xxx');
   var time = Utilities.formatDate(new Date(), "GMT", "HH:mm ");
-  form.setConfirmationMessage("Thank you for using me! At "+time+" today, the current position was: "+amountSetOff+". \n\n(This amount is updated once per minute. \
-It may be wrong. Please be kind! :] )");
+  form.setConfirmationMessage("Thank you for using me! At "+time+" today, the current position was: "+amountSetOff+".");
 }
